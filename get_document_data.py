@@ -51,7 +51,7 @@ def main():
                 endIndex = element.get('endIndex')
 
                 # makes a "search"
-                if ("4." in partext):
+                if ("text to be searched in each paragraph" in partext):
                     print(partext.strip(), ' --- index: ', startIndex, ', ', endIndex)
 
 
